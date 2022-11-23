@@ -24,3 +24,35 @@ a {
     background: black;
   }
 }
+.items {
+  background-color: rgb(40, 45, 45);
+  display: flex;
+  padding: 0px 20px;
+  border-radius: 2px;
+  gap: 10px;
+  align-items: center;
+  border: thin double #7632ce;
+}
+.items h4 {
+  background-color: azure;
+  padding: 5px;
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+h1,
+h3 {
+  text-align: center;
+}
+
+.nav-links {
+  background-color: rgb(40, 45, 45);
+  display: flex;
+  padding: 0px 20px;
+  border-radius: 2px;
+  gap: 40px;
+  align-items: center;
+  border: thin double #825bb5;
+  padding: 10px;
+}
