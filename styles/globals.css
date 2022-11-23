@@ -56,3 +56,8 @@ h3 {
   border: thin double #825bb5;
   padding: 10px;
 }
+.image {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}

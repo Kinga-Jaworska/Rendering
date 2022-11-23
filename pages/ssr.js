@@ -1,20 +1,18 @@
 import { URL } from "./api/api";
+import { ImageContent } from "./image-component";
 
 export const ServerSideRendering = ({ facts }) => {
   return (
     <>
-      <h1>SSR</h1>
-      <div>
-        <h3>CAT FACTS</h3>
-        {facts.map(({ fact, id }) => {
-          return (
-            <div key={id} className="items">
-              <h4>{id}</h4>
-              <p>{fact}</p>
-            </div>
-          );
-        })}
-      </div>
+      {/* <ImageContent title="SSR" /> */}
+      {facts.map(({ fact, id }) => {
+        return (
+          <div key={id} className="items">
+            <h4>{id}</h4>
+            <p>{fact}</p>
+          </div>
+        );
+      })}
     </>
   );
 };

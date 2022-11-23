@@ -1,20 +1,18 @@
 import { URL } from "./api/api";
+import { ImageContent } from "./image-component";
 
 export const IncrementalStaticGeneration = ({ facts }) => {
   return (
     <>
-      <h1>ISR</h1>
-      <div>
-        <h3>CAT FACTS</h3>
-        {facts.map(({ fact, id }) => {
-          return (
-            <div key={id} className="items">
-              <h4>{id}</h4>
-              <p>{fact}</p>
-            </div>
-          );
-        })}
-      </div>
+      {/* <ImageContent title="ISR" /> */}
+      {facts.map(({ fact, id }) => {
+        return (
+          <div key={id} className="items">
+            <h4>{id}</h4>
+            <p>{fact}</p>
+          </div>
+        );
+      })}
     </>
   );
 };
@@ -27,7 +25,7 @@ export async function getStaticProps() {
     props: {
       facts,
     },
-    revalidate: 8,
+    revalidate: 3,
   };
 }
 

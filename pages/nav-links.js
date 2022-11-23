@@ -11,15 +11,14 @@ export const NavLinks = () => {
       }),
     });
     const fact = await response.json();
-
     console.log(fact);
   };
   return (
     <div className="nav-links">
-      <a href="csr_method">CSR</a>
-      <a href="ssr_method">SSR</a>
-      <a href="ssg_method">SSG</a>
-      <a href="isr_method">ISR</a>
+      <a href="csr">CSR</a>
+      <a href="ssr">SSR</a>
+      <a href="ssg">SSG</a>
+      <a href="isr">ISR</a>
       <button type="button" onClick={addData}>
         Add new fact
       </button>

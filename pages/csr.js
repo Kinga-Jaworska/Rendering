@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { URL } from "./api/api";
+import { ImageContent } from "./image-component";
 
 export const ClientSideRedering = () => {
   const [results, setResults] = useState([]);
@@ -15,10 +16,9 @@ export const ClientSideRedering = () => {
 
   return (
     <>
-      <h1>CSR</h1>
       {results.length > 0 ? (
         <>
-          <h3>CAT FACTS</h3>
+          {/* <ImageContent title="CSR" /> */}
           {results.map((cat) => {
             return (
               <div key={cat.id} className="items">
