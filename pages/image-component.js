@@ -7,7 +7,7 @@ export const ImageContent = (props) => {
       <h3>CAT FACTS</h3>
       <div className="image">
         <Image
-          src="https://movetexas.org/wp-content/uploads/2021/03/IMG_1974.jpg"
+          src={"https://movetexas.org/wp-content/uploads/2021/03/IMG_1974.jpg"}
           height={80}
           alt="Cat okay meme"
         />
