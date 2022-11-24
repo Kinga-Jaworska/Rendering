@@ -10,6 +10,7 @@ export const ImageContent = (props) => {
           src={"https://movetexas.org/wp-content/uploads/2021/03/IMG_1974.jpg"}
           height={80}
           alt="Cat okay meme"
+          width={100}
         />
       </div>
     </>
