@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { URL } from "./api/api";
-import { ImageContent } from "./image-component";
 
 export const ClientSideRedering = () => {
   const [results, setResults] = useState([]);

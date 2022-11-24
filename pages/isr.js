@@ -1,5 +1,4 @@
 import { URL } from "./api/api";
-import { ImageContent } from "./image-component";
 
 export const IncrementalStaticGeneration = ({ facts }) => {
   return (
@@ -24,7 +23,7 @@ export async function getStaticProps() {
     props: {
       facts,
     },
-    revalidate: 3,
+    revalidate: 5,
   };
 }
 

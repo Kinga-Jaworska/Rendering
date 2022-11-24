@@ -1,5 +1,4 @@
 import { URL } from "./api/api";
-import { ImageContent } from "./image-component";
 
 export const ServerSideRendering = ({ facts }) => {
   return (
