@@ -4,7 +4,6 @@ import { ImageContent } from "./image-component";
 export const IncrementalStaticGeneration = ({ facts }) => {
   return (
     <>
-      {/* <ImageContent title="ISR" /> */}
       {facts.map(({ fact, id }) => {
         return (
           <div key={id} className="items">

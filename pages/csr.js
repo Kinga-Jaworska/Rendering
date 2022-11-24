@@ -18,7 +18,6 @@ export const ClientSideRedering = () => {
     <>
       {results.length > 0 ? (
         <>
-          {/* <ImageContent title="CSR" /> */}
           {results.map((cat) => {
             return (
               <div key={cat.id} className="items">

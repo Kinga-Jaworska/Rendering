@@ -3,7 +3,6 @@ import { URL } from "./api/api";
 export const StaticSiteGeneration = ({ facts }) => {
   return (
     <>
-      {/* <ImageContent title="SSG" /> */}
       {facts.map(({ fact, id }) => {
         return (
           <div key={id} className="items">

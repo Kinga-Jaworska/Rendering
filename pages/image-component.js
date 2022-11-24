@@ -15,3 +15,5 @@ export const ImageContent = (props) => {
     </>
   );
 };
+
+export default ImageContent;

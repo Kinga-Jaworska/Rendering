@@ -4,7 +4,6 @@ import { ImageContent } from "./image-component";
 export const ServerSideRendering = ({ facts }) => {
   return (
     <>
-      {/* <ImageContent title="SSR" /> */}
       {facts.map(({ fact, id }) => {
         return (
           <div key={id} className="items">
